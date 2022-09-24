@@ -1,2 +1,141 @@
 # benimsitem
 benimsitem
+
+<H2>Linkler ile çalışmak</H2>
+<!--Başka bir web sitesine gitmek istersen.
+    Başka bir sayfaya git
+    Aynı sayfa içerisinde bir yere gitmek istersen. -> ID bilgisine git
+    Mail atmak için..
+    Telefon etmek için.
+href="" -->
+ 
+
+
+<br>
+
+
+
+
+<ul>
+    <li>
+    
+        <a href="https://kodluyoruz.org" target="_blank"> 
+            Kodluyoruz Sayfasına Gidilecek
+        </a>
+            
+    </li>
+                <li>
+                    <a href="iletisim.html">
+                    İletişim Sayfasına Git
+                    </a>
+
+                </li> 
+  
+                    <li>
+                        <a href="#footer">
+                            En Alt Kısma Git
+                            </a>
+                    </li>
+                    
+                        <li>
+                            <a href="mailto:https://kodluyoruz.org">
+                                Kodluyoruz'a Mail At
+                            </a>
+                        </li>
+                    <li>
+                        <a href="tel:+05551116677">
+                        Telefon 
+                        </a>
+                    </li>
+</ul>
+
+
+
+ <!--İsmim-->
+ ><h1>Muhammet Emin METİN</h1>
+ <!--Hakkımda Kısmı-->  
+ <h2>Hakkımda,</h2>
+ <p>Merhaba!Ben Uşak Üniversitesinde Antrenörlük Bölümü öğrencisiyim.Kitap okumayı ve kendime yeni bilgiler katmayı severim.</p> 
+ <p></p>Aslında asıl branşım yüzme olsa da kendimi yazılım sektöründe de geliştirmeyi hedefliyorum.Umarım bundan 1 yıl sonra çok daha farklı yerlerde olurum.
+ <p>22/09/2022</p>
+ <!--Dizi-->
+ <h2>Sevdiğim Diziler</h2>
+ <p>Narcos,Breaking Bad,Prison Break</p>
+ <h1>İlgi Alanlarım</h1>
+<!-- 
+    Sıralı listeler -> 1, 2, 3, ordered list ? -> ol 
+    Sıralı olmayan listeler -> *,*,*, unordered list ? -> ul
+    -> list item -> li
+-->
+        <ol>
+            <li> Film
+                <ul>
+                    <li>
+                    <a href="https://www.imdb.com/title/tt0180093/"   target="_blank"> Bir Rüya İçin Ağıt </a>
+                </li>
+
+                        <img height="300" width="200"
+                                         src="https://avatars.mds.yandex.net/i?id=37cc9c998e08aee535c4c1fca8e66efd-4360790-images-thumbs&n=13" alt="en sevdiğim film">
+                                         <li>Batman</li>
+                <li>Yüzüklerin Efendisi</li>
+                        </a>
+                </ul>
+            </li>
+            <li> Dizi
+                <ul>
+                    <li><a href="https://www.imdb.com/title/tt0903747/" target="_blank"
+                >Breaking Bad</a></li>
+                    <img src="https://avatars.mds.yandex.net/i?id=5f998cca54335882057992eaf57ed98f-5234419-images-thumbs&n=13" alt="en sevdiğim dizi">
+                    <li>Prison Break</li>
+                    <li>Narcos</li>
+                </ul>
+            </li>
+            
+            
+            <li> Kitap
+                 <ul>     
+            <li> <a href="https://www.goodreads.com/tr/book/show/77203.The_Kite_Runner" target="_blank" >Uçurtma Avcısı</a> </li>
+
+                <img height="300" width="375" src="https://avatars.mds.yandex.net/i?id=99699a760d750f7b32536079bd3d6419-4120927-images-thumbs&n=13" alt="en sevdiğim kitap">
+
+        <li>1984</li>
+        <li>Don Kişot</li>
+            
+                </ul>
+
+            </li>
+           
+           
+        </ol>
+        
+
+    <h1>Emmet / Zen Coding</h1>
+    <!-- Etiket isimlerini direkt olarak verebiliyoruz.
+        +  kardeş öğe oluşturur.
+        > içinde öğe oluşturur.
+        ^ yukarı çık ve öğe oluştur.
+        lorem ??? 
+        * çarp -> p*3 gibi yani 3 tane paragraf oluştur komutu.
+        . -> class oluşturur.
+        # -> ID oluşturur.
+      -->
+      
+    <!--h1+p+p+h2+p+p+p+p-->
+    <!--h1+p+p+h2+p+p+p+p -> h1+p*2+h2+p*4 -->
+    <!-- ul>li*5 -->
+
+   <!-- ul>li*3>lorem1^p*2>lorem4+h3>lorem1 -> hatalı
+        ul>li*3>lorem1^p*2>lorem4^h3>lorem1 -> doğru (lorem4'den sonra üste çıkma işareti var!!
+   -->
+    
+<h2>Görsellerle Çalışmak</h2>
+   
+   <!-- img -->
+ 
+   <img height="200" width="300" src="images/1.jpg" alt="Fotoğraf">
+
+   <li>
+    <h2 id="footer">En Alt Kısım</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+</li>
